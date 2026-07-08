@@ -82,3 +82,33 @@ ul li a {
 .h-left-btn{
     margin-top: 12px;
 }
+/* .h-right{
+   
+    background: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    mix-blend-mode: normal;
+
+
+} */
+ .a-root{
+    background-color: #e8a372;
+    margin: auto;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+ }
+ /* .a-root .a-box{
+    gap:10px;
+ } */
+ .a-box{
+     display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: 1200px;
+    margin: auto;
+ }
+ .a-box .box{
+    background-color: #c7ecf8;
+    padding: 5px;
+    border-radius: 5px;
+ }

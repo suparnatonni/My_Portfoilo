@@ -3,6 +3,9 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 .common-btn{
     background-color: #FD6E0A;
     padding: 5px 20px;
@@ -11,11 +14,24 @@
     font-size: 15px;
     color: white;
     border: none;
+    cursor: pointer;
 
 }
-
+.outline-btn{
+     background-color: white;
+    padding: 5px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#FD6E0A;
+    border-color: #FD6E0A;
+    cursor: pointer;
+}
+.header-root{
+    background-color: bisque;
+}
 nav {
-    background-color: wheat;
+    
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -42,4 +58,27 @@ ul{
 }
 ul li a {
     text-decoration: none;
+}
+.hero-p-root{
+    background-color: rgb(144, 181, 197);
+}
+.hero-p{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    
+}
+.h-left-p-1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.h-left h2{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.h-left-btn{
+    margin-top: 12px;
 }

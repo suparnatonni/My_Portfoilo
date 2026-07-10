@@ -17,6 +17,10 @@ img{
     cursor: pointer;
 
 }
+.common-btn:hover{
+ background-color:brown;
+}
+
 .outline-btn{
      background-color: white;
     padding: 5px 20px;
@@ -26,6 +30,9 @@ img{
     color:#FD6E0A;
     border-color: #FD6E0A;
     cursor: pointer;
+}
+.outline-btn:hover{
+    background-color: darkcyan;
 }
 .header-root{
     background-color: bisque;
@@ -173,3 +180,22 @@ grid-area: five;
 .amazing-box6{
 grid-area: six;
 }
+ footer{
+    text-align: center;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    background-color: honeydew;
+    padding: 20%;
+    border-radius: 10px;
+    
+ }
+ footer form input{
+    outline: none;
+    border: none;
+    background-color:wheat;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+ }

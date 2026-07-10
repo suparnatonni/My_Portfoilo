@@ -140,9 +140,36 @@ ul li a {
     grid-auto-rows:250px;
     margin-top: 20px;
     gap: 12px;
+    grid-template-areas:   "one two three"
+                           "four two six"
+                           "four five six";
+
+}
+.amazing-gallery img{
+    height: 100%;
+    width:100%;
+    object-fit:cover ;
 }
 .amazing-box{
     height:100%;
     width:100%;
     object-fit:cover;
+}
+.amazing-box1{
+grid-area: one;
+}
+.amazing-box2{
+grid-area: two;
+}
+.amazing-box3{
+grid-area: three;
+}
+.amazing-box4{
+grid-area: four;
+}
+.amazing-box5{
+grid-area: five;
+}
+.amazing-box6{
+grid-area: six;
 }
